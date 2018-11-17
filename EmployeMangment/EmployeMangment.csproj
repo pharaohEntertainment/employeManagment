@@ -215,6 +215,10 @@
     <Compile Include="Migrations\201811172006199_seedAdminUser.Designer.cs">
       <DependentUpon>201811172006199_seedAdminUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811172008070_seedMaritalStatesTable.cs" />
+    <Compile Include="Migrations\201811172008070_seedMaritalStatesTable.Designer.cs">
+      <DependentUpon>201811172008070_seedMaritalStatesTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employe.cs" />
@@ -350,6 +354,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811172006199_seedAdminUser.resx">
       <DependentUpon>201811172006199_seedAdminUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811172008070_seedMaritalStatesTable.resx">
+      <DependentUpon>201811172008070_seedMaritalStatesTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
