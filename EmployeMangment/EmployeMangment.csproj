@@ -203,6 +203,10 @@
     <Compile Include="Migrations\201811171943570_initialMigration.Designer.cs">
       <DependentUpon>201811171943570_initialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811171950243_addedEmployesTableInDatabase.cs" />
+    <Compile Include="Migrations\201811171950243_addedEmployesTableInDatabase.Designer.cs">
+      <DependentUpon>201811171950243_addedEmployesTableInDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Employe.cs" />
@@ -328,6 +332,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201811171943570_initialMigration.resx">
       <DependentUpon>201811171943570_initialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811171950243_addedEmployesTableInDatabase.resx">
+      <DependentUpon>201811171950243_addedEmployesTableInDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
