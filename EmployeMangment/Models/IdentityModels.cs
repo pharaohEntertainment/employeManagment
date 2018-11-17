@@ -25,7 +25,11 @@ namespace EmployeMangment.Models
         {
         }
 
+
         public DbSet<Employe> employes { get; set; }
+        public DbSet<MaritalState> maritalStates { get; set; }
+
+
 
         public static ApplicationDbContext Create()
         {
